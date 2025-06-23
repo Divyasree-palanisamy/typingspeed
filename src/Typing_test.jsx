@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const paragraphsList = [
-  "Typing is a valuable skill that improves with consistent practice.",
-  "It allows individuals to communicate quickly and efficiently, whether they're writing emails, coding, or creating content.",
-  "A fast and accurate typist can save a significant amount of time and reduce errors."
+  "Typing is a valuable skill that improves with consistent practice.Education is the foundation of personal and societal growth. It equips individuals with knowledge, critical thinking skills, and the confidence to face life’s challenges. A strong education system not only promotes equality but also shapes the future by empowering the next generation of leaders, thinkers, and creators.",
+  "It allows individuals to communicate quickly and efficiently, whether they're writing emails, coding, or creating content.The health of our planet is crucial for the well-being of future generations. Climate change, deforestation, and pollution are pressing issues that demand urgent action. Sustainable living, renewable energy, and conservation efforts are essential steps toward preserving the environment and creating a healthier planet for all.",
+  "A fast and accurate typist can save a significant amount of time and reduce errors.Technology has transformed the way we live, work, and communicate. From smartphones to artificial intelligence, advancements in technology have improved efficiency and opened new opportunities across all sectors. Innovation continues to drive progress, making the world more connected and accessible than ever before."
 ];
 
 const getRandomParagraph = () => {

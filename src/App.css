@@ -1,13 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #222;
+  background: linear-gradient(to bottom, purple, navy, black);
   color: #fff;
   display: flex;
   justify-content: center;
   padding: 20px;
-  background: linear-gradient(to bottom, purple, navy, black);
 }
-
 
 #text-display {
   font-size: 16px;
@@ -83,7 +81,6 @@ body {
   color: green;
 }
 
-
 /* --- Typing Speed Test Custom Styles --- */
 
 .typing-heading {
@@ -118,26 +115,21 @@ body {
   justify-content: center;
 }
 
+/* Removed the box style */
 .stat-box {
-  background: #f0f0f0;
-  border-radius: 8px;
-  padding: 1rem;
-  min-width: 100px;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  min-width: unset;
   text-align: center;
-  box-shadow: 0 2px 8px #eee;
+  box-shadow: none;
 }
 
 .stat-label {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #222;
+  color: #fff;
 }
-
-.speed-label {}
-
-.accuracy-label {}
-
-.wpm-label {}
 
 .stat-value {
   font-size: 1.5rem;
@@ -157,7 +149,7 @@ body {
 
 .stat-unit {
   font-size: 0.9rem;
-  color: #444;
+  color: #ccc;
 }
 
 .action-button-row {
