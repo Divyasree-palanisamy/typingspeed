@@ -106,15 +106,9 @@ function Typing_test() {
     }
   };
 
-  const progress = Math.min((input.length / paragraphText.length) * 100, 100);
-
   return (
     <div className='container'>
       <h1 className='typing-heading'>Typing Speed Test</h1>
-
-      <div className='progress-bar-container'>
-        <div className='progress-bar' style={{ width: `${progress}%` }}></div>
-      </div>
 
       <p id="text-display">
         {[...paragraphText].map((char, i) => {
@@ -136,7 +130,7 @@ function Typing_test() {
         placeholder="Start Typing"
       ></textarea>
 
-      {/* Stat Boxes below typing box */}
+      {/* Stats Row */}
       <div className='stat-boxes'>
         <div className='stat-box'>
           <div className='stat-label speed-label'>Speed</div>
@@ -153,7 +147,7 @@ function Typing_test() {
         </div>
       </div>
 
-      {/* Unified Button Row: Time, Restart, Mode */}
+      {/* Buttons */}
       <div className='action-button-row'>
         <div className='time-button'>
           ⏰ Time: <span id="timer">{timer}</span> s
